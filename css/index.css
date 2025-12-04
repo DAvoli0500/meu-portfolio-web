@@ -1,0 +1,145 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+body{
+    background-color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    overflow-x: hidden;
+}
+
+/*Formatação de estrelas*/
+.star{
+    position: absolute;
+    width: 1.5px;
+    height: 1.5px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    animation: piscar 3s infinite ease-in-out; /*Animação para a estrela piscar*/
+}
+
+.caixa{
+    background: linear-gradient(180deg, #0f0f1dec 0%, #2E3192 100%);
+    width: 60%;
+    height: auto;
+    margin-left: 50%;
+    transform: translate(-50%,10%);
+    border-radius: 8px;
+    opacity: 0, 1;
+}
+
+.topo{
+    background-color: rgba(50, 43, 88, 0.1);
+    height: 50px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    padding-left: 20px;
+    border-radius: 8px;
+
+    .port{
+    font-size: 24px;
+    font-weight: 700;
+    background: linear-gradient(90deg, #9435ec, #28a8fd);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    }
+}
+/*Animação para aestrela piscar*/
+@keyframes piscar { 
+  0% { opacity: 0.3; }
+  50% { opacity: 1; }
+  100% { opacity: 0.3; }
+}
+
+/*navegação entre paginas*/
+.menu {
+    margin-left: auto;
+    margin-right: 15px;
+}
+.menu ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    gap: 20px;
+}
+.menu ul li {
+    display: flex;
+    align-items: center;
+    height: 50px;
+    padding: 0 15px;
+}
+.menu ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+.menu ul li a:hover {
+    color: #28a8fd;
+}
+
+/*Sobre Mim*/
+.apre {
+    padding: 50px;
+    text-align: center;
+    color: white;
+} 
+.apresentacao h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+.apresentacao h1 span {
+    color: #28a8fd;
+}
+.apresentacao h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+.apresentacao p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.sobre {
+    padding: 50px;
+    color: white;
+}
+.sobre h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+.sobre p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.projetos {
+    padding: 50px;
+    color: white;
+}
+
+
+/*Responsividade*/
+@media (max-width: 768px) {
+    .caixa {
+        width: 90%;
+        height: auto;
+        margin-top: 20px;
+    }
+    .menu ul {
+        gap: 10px;
+    }
+    .menu ul li {
+        height: auto;
+        padding: 10px 0;
+    }
+}
