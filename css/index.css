@@ -127,16 +127,81 @@ body{
     color: white;
 }
 
+.projetos h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.cards-projetos {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 40px;
+}
+
+.cards-projetos .calc {
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 10px;
+    border-radius: 8px;
+    text-align: center;
+    width: 100%;
+}
+.cards-projetos .calc h3 {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+.cards-projetos .calc p {
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+.cards-projetos .calc a {
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: #28a8fd;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+.cards-projetos .calc a:hover {
+    background-color: #0f6cb8;
+}
+.cards-projetos .wars {
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 10px;
+    border-radius: 8px;
+    text-align: center;
+    width: 100%;
+}
+.cards-projetos .wars h3 {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+.cards-projetos .wars p {
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+.cards-projetos .wars a {
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: #28a8fd;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+.cards-projetos .wars a:hover {
+    background-color: #0f6cb8;
+}
 
 /*Responsividade*/
-@media (max-width: 768px) {
+@media (min-width:320px) and (max-width:768px) {
     .caixa {
         width: 90%;
         height: auto;
         margin-top: 20px;
     }
     .menu ul {
-        gap: 10px;
+        gap: 10px; 
     }
     .menu ul li {
         height: auto;
