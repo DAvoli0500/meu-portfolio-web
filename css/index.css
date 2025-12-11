@@ -251,4 +251,7 @@ body{
         height: auto;
         padding: 10px 0;
     }
+    .apre, .sobre, .projetos, .contato {
+        padding: 20px;
+    }
 }
