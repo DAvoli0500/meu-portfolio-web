@@ -238,7 +238,25 @@ body{
 }
 
 /*Responsividade*/
-@media (min-width:100px) and (max-width:768px) {
+@media (min-width:100px) and (max-width:319px){
+    .caixa {
+        width: 95%;
+        height: auto;
+        margin-top: 20px;
+    }
+    .menu ul {
+        gap: 5px; 
+    }
+    .menu ul li {
+        height: auto;
+        padding: 10px 0;
+    }
+    .apre, .sobre, .projetos, .contato {
+        padding: 15px;
+    }
+}
+
+@media (min-width:320px) and (max-width:768px) {
     .caixa {
         width: 90%;
         height: auto;
@@ -253,5 +271,23 @@ body{
     }
     .apre, .sobre, .projetos, .contato {
         padding: 20px;
+    }
+}
+
+@media (min-width:769px) and (max-width:1200px) {
+    .caixa {
+        width: 80%;
+        height: auto;
+        margin-top: 20px;
+    }
+    .menu ul {
+        gap: 15px; 
+    }
+    .menu ul li {
+        height: auto;
+        padding: 10px 0;
+    }
+    .apre, .sobre, .projetos, .contato {
+        padding: 30px;
     }
 }
