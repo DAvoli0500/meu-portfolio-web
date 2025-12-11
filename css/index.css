@@ -238,7 +238,7 @@ body{
 }
 
 /*Responsividade*/
-@media (min-width:320px) and (max-width:768px) {
+@media (min-width:100px) and (max-width:768px) {
     .caixa {
         width: 90%;
         height: auto;
