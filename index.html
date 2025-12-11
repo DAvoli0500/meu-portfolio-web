@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meu Portifólio</title>
+    <title>Meu Portfólio</title>
     <link rel="stylesheet" href="./css/index.css">
     <link rel="shortcut icon" href="./imgs/foguete.png" type="image/x-icon">
 </head>
@@ -12,8 +12,8 @@
 <body>
     <div class="container"></div>
     <div class="caixa">
-        <div class="topo">
-            <div class="port">Portifólio</div>
+        <div class="topo" id="topo">
+            <div class="port">Portfólio</div>
             <div class="menu">
                 <nav>
                     <ul>
@@ -27,7 +27,7 @@
 
         <main>
             <section class="apre">
-                <div class="apresentacao" id="home">
+                <div class="apresentacao" id="apre">
                     <h1>Olá, eu sou <span>Lucas Vital Davoli</span></h1>
                     <h2>Desenvolvedor Front-End</h2>
                     <p>Bem-vindo ao meu portfólio! Aqui você encontrará meus projetos e habilidades.</p>
@@ -36,15 +36,17 @@
         </main>
         <section>
             <section class="sobre" id="sobre">
-                <h2>Sobre Mim</h2>
-                <p>Estudante de Análise e Desenvolvimento de Sistemas (ADS), com foco no desenvolvimento de soluções digitais utilizando HTML, CSS e JavaScript. Dedico-me continuamente à aprofundar meus conhecimentos e dominar novas tecnologias, visando criar projetos inovadores, eficientes</p> <br>
-                <h2>habilidades</h2>
+                <h2>Sobre Mim:</h2>
+                <p>Estudante de Análise e Desenvolvimento de Sistemas (ADS), com foco no desenvolvimento de soluções
+                    digitais utilizando HTML, CSS e JavaScript. Dedico-me continuamente à aprofundar meus conhecimentos
+                    e dominar novas tecnologias, visando criar projetos inovadores, eficientes</p> <br>
+                <h2>habilidades:</h2>
                 <h3>Habilidades Técnicas</h3>
                 <ul>
                     <li>HTML5</li>
                     <li>CSS3</li>
                     <li>JavaScript</li>
-                    <li>experiência com PHP e PYTHON</li>
+                    <li>Conhecimentos básicos em PHP e PYTHON</li>
                     <li>Git e GitHub</li>
                     <li>Design Responsivo</li>
                 </ul>
@@ -59,19 +61,40 @@
             </section>
         </section>
         <section class="projetos" id="projetos">
-            <h2>Meus Projetos</h2>
+            <h2>Meus Projetos:</h2>
             <div class="cards-projetos">
                 <div class="calc">
                     <h3>FórmulaX</h3>
-                    <p>Calculadora funcional desenvolvida com HTML, CSS e JavaScript, capaz de realizar operações aritméticas básicas. Projeto focado em lógica de programação</p>
+                    <p>Calculadora funcional desenvolvida com HTML, CSS e JavaScript, capaz de realizar operações
+                        aritméticas básicas. Projeto focado em lógica de programação</p>
                     <a href="https://davoli0500.github.io/Calculadora-basica/" target="_blank">Ver Projeto</a>
                 </div>
                 <div class="wars">
-                    <h3>filme <em>Star Wars</em></h3>
-                    <p>Recriação da icônica abertura do filme <em>Star Wars</em>, feita com HTML, CSS (com auxílio do Bootstrap), JavaScript e jQuery. O projeto simula o efeito de rolagem em perspectiva da introdução clássica da franquia.</p>
+                    <h3>Projeto <em>Star Wars</em></h3>
+                    <p>Recriação da icônica abertura do filme <em>Star Wars</em>, feita com HTML, CSS (com auxílio do
+                        Bootstrap), JavaScript e jQuery. O projeto simula o efeito de rolagem em perspectiva da
+                        introdução clássica da franquia.</p>
                     <a href="https://davoli0500.github.io/Projeto-Starwars/" target="_blank">Ver Projeto</a>
                 </div>
             </div>
-        <script src="./js/index.js"></script>
+            <section class="contato" id="contato">
+                <h2>Contato:</h2>
+                <p>Estou aberto a oportunidades de estágio, feedbacks ou simplesmente trocar ideias sobre tecnologia.
+                    Ficarei feliz em responder!</p>
+
+                <div class="contato-links">
+                    <p><strong>E-mail:</strong> <a href="vitaldavolilucas@gmail.com">vitaldavolilucas@gmail.com</a>
+                    </p>
+                    <p><strong>GitHub:</strong> <a href="https://github.com/DAvoli0500"
+                            target="_blank">https://github.com/DAvoli0500</a></p>
+                    <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/lucas-vital-davoli-8171a2300/"
+                            target="_blank">https://www.linkedin.com/in/lucas-vital-davoli-8171a2300/</a></p>
+                </div>
+            </section>
+            <div class="voltar">
+                <a href="#topo">Voltar ao Topo</a>
+            </div>
+            <script src="./js/index.js"></script>
 </body>
+
 </html>

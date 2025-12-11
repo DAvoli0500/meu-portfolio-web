@@ -124,6 +124,7 @@ body{
 
 .projetos {
     padding: 50px;
+    margin-top: -40px;
     color: white;
 }
 
@@ -191,6 +192,49 @@ body{
 }
 .cards-projetos .wars a:hover {
     background-color: #0f6cb8;
+}
+
+.contato {
+    padding: 50px;
+    color: white;
+    background-color: rgba(25, 16, 82, 0.4);
+    border-radius: 8px;
+    margin-top: 40px;
+}
+.contato h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+.contato p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+.contato-links p {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+.contato-links a {
+    color: #28a8fd;
+    text-decoration: none;
+}
+.contato-links a:hover {
+    text-decoration: underline;
+}
+
+.voltar{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.voltar a {
+    margin-top: 20px;
+    color: #48b6ff;
+    text-decoration: none;
+    font-weight: bold;
+}
+.voltar a:hover {
+    text-decoration: underline;
 }
 
 /*Responsividade*/
