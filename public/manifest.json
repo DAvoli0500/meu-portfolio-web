@@ -1,0 +1,16 @@
+{
+  "name": "Portfólio - Lucas Vital Davoli",
+  "short_name": "LucasDev",
+  "start_url": "/meu-portfolio-web/",
+  "display": "standalone",
+  "background_color": "#000000",
+  "theme_color": "#2E3192",
+  "description": "Portfólio pessoal de Lucas Vital Davoli, Desenvolvedor Front-End",
+  "icons": [
+    {
+      "src": "https://davoli0500.github.io/meu-portfolio-web/imgs/foguete.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  ]
+}

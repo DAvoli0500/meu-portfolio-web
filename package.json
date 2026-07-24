@@ -1,0 +1,13 @@
+{
+  "name": "meu-portfolio-web",
+  "version": "1.0.0",
+  "description": "Portfólio pessoal - Lucas Vital Davoli",
+  "private": true,
+  "scripts": {
+    "dev": "npx live-server . --port=3000 --no-browser",
+    "build": "echo 'Static site - no build step required'"
+  },
+  "keywords": ["portfolio", "front-end", "developer"],
+  "author": "Lucas Vital Davoli",
+  "license": "MIT"
+}

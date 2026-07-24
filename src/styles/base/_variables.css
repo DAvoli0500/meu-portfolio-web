@@ -1,0 +1,25 @@
+:root {
+  --bg-primary: #000000;
+  --bg-gradient: linear-gradient(180deg, #0f0f1dec 0%, #2E3192 100%);
+  --bg-header: rgba(50, 43, 88, 0.1);
+  --bg-card: rgba(255, 255, 255, 0.1);
+  --bg-contact: rgba(25, 16, 82, 0.4);
+  --color-text: #ffffff;
+  --color-accent: #28a8fd;
+  --color-accent-hover: #0f6cb8;
+  --color-glow: #48b6ff;
+  --color-gradient-text: linear-gradient(90deg, #9435ec, #28a8fd);
+  --color-star: rgb(255, 255, 255);
+  --font-primary: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  --gap-grid: 40px;
+  --gap-nav: 20px;
+  --radius-default: 8px;
+  --radius-card: 4px;
+  --padding-section: 50px;
+  --padding-section-mobile: 15px;
+  --padding-section-tablet: 20px;
+  --caixa-width: 60%;
+  --caixa-width-mobile: 95%;
+  --caixa-width-tablet: 90%;
+  --caixa-width-desktop: 80%;
+}

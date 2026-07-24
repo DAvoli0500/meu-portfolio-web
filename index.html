@@ -1,104 +1,126 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meu Portfólio</title>
-    <link rel="stylesheet" href="./css/index.css">
-    <link rel="shortcut icon" href="./imgs/foguete.png" type="image/x-icon">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lucas Vital Davoli | Portfólio - Desenvolvedor Front-End</title>
+  <meta name="description" content="Portfólio de Lucas Vital Davoli, Desenvolvedor Front-End. Conheça meus projetos, habilidades e entre em contato.">
+  <meta name="keywords" content="Lucas Vital Davoli, portfólio, desenvolvedor front-end, HTML, CSS, JavaScript, ADS">
+  <meta name="author" content="Lucas Vital Davoli">
+  <meta name="theme-color" content="#2E3192">
+
+  <meta property="og:title" content="Lucas Vital Davoli | Portfólio - Desenvolvedor Front-End">
+  <meta property="og:description" content="Conheça meus projetos e habilidades em desenvolvimento front-end.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://davoli0500.github.io/meu-portfolio-web/">
+  <meta property="og:image" content="https://davoli0500.github.io/meu-portfolio-web/imgs/foguete.png">
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Lucas Vital Davoli | Portfólio">
+  <meta name="twitter:description" content="Desenvolvedor Front-End - Projetos e habilidades">
+
+  <link rel="canonical" href="https://davoli0500.github.io/meu-portfolio-web/">
+  <link rel="stylesheet" href="src/styles/main.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="imgs/foguete.png">
+  <link rel="apple-touch-icon" href="imgs/foguete.png">
+  <link rel="manifest" href="public/manifest.json">
+
+  <link rel="preconnect" href="https://cdnjs.cloudflare.com">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
 
 <body>
-    <div class="container"></div>
-    <div class="caixa">
-        <div class="topo" id="topo">
-            <div class="port">Portfólio</div>
-            <div class="menu">
-                <nav>
-                    <ul>
-                        <li><a href="#sobre">Sobre</a></li>
-                        <li><a href="#projetos">Projetos</a></li>
-                        <li><a href="#contato">Contato</a></li>
-                    </ul>
-                </nav>
-            </div>
-        </div>
 
-        <main>
-            <section class="apre">
-                <div class="apresentacao" id="apre">
-                    <h1>Olá, eu sou <span>Lucas Vital Davoli</span></h1>
-                    <h2>Desenvolvedor Front-End</h2>
-                    <p>Bem-vindo ao meu portfólio! Aqui você encontrará meus projetos e habilidades.</p>
-                </div>
-            </section>
-        </main>
-        <section>
-            <section class="sobre" id="sobre">
-                <h2>Sobre Mim:</h2>
-                <p>Estudante de Análise e Desenvolvimento de Sistemas (ADS), com foco no desenvolvimento de soluções
-                    digitais utilizando HTML, CSS e JavaScript. Dedico-me continuamente à aprofundar meus conhecimentos
-                    e dominar novas tecnologias, visando criar projetos inovadores, eficientes</p> <br>
-                <h2>Habilidades:</h2>
-                <h3>Habilidades Técnicas</h3>
-                <ul>
-                    <li>HTML5</li>
-                    <li>CSS3</li>
-                    <li>JavaScript</li>
-                    <li>Design Responsivo</li>
-                    <li>Conhecimentos básicos em PHP e Python</li>
-                    <li>Git e GitHub</li>
-                </ul>
+  <header class="topo" id="topo" role="banner">
+    <div class="port" aria-label="Título do Portfólio">Portfólio</div>
+    <nav class="menu" aria-label="Navegação principal">
+      <ul>
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#projetos">Projetos</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
 
-                <h3>Habilidades Comportamentais</h3>
-                <ul>
-                    <li>Boa comunicação</li>
-                    <li>Trabalho em equipe</li>
-                    <li>Aprendizado contínuo</li>
-                    <li>Resiliência diante de desafios</li>
-                </ul>
-            </section>
-        </section>
-        <section class="projetos" id="projetos">
-            <h2>Meus Projetos:</h2>
-            <div class="cards-projetos">
-                <div class="calc">
-                    <h3>FórmulaX</h3>
-                    <p>Calculadora funcional desenvolvida com HTML, CSS e JavaScript, capaz de realizar operações
-                        aritméticas básicas. Projeto focado em lógica de programação</p>
-                    <a href="https://davoli0500.github.io/Calculadora-basica/" target="_blank">Ver Projeto</a>
-                </div>
-                <div class="wars">
-                    <h3>Projeto <em>Star Wars</em></h3>
-                    <p>Recriação da icônica abertura do filme <em>Star Wars</em>, feita com HTML, CSS (com auxílio do
-                        Bootstrap), JavaScript e jQuery. O projeto simula o efeito de rolagem em perspectiva da
-                        introdução clássica da franquia.</p>
-                    <a href="https://davoli0500.github.io/Projeto-Starwars/" target="_blank">Ver Projeto</a>
-                </div>
-            </div>
-            <section class="contato" id="contato">
-                <h2>Contato:</h2>
-                <p>Estou aberto a oportunidades de estágio, feedbacks ou simplesmente trocar ideias sobre tecnologia.
-                    Ficarei feliz em responder!</p>
+  <main>
+    <section class="apre" id="apre" aria-label="Apresentação">
+      <div class="apresentacao">
+        <h1>Olá, eu sou <span>Lucas Vital Davoli</span></h1>
+        <h2>Desenvolvedor Front-End</h2>
+        <p>Bem-vindo ao meu portfólio! Aqui você encontrará meus projetos e habilidades.</p>
+      </div>
+    </section>
+  </main>
 
-                <div class="contato-links">
-                    <i class="fas fa-envelope icon"></i>
-                    <a href="mailto:vitaldavolilucas@gmail.com">vitaldavolilucas@gmail.com</a>
-                    <br>
-                    <i class="fab fa-github icon"></i>
-                    <a href="https://github.com/DAvoli0500" target="_blank">https://github.com/DAvoli0500</a>
-                    <br>
-                    <i class="fab fa-linkedin icon"></i>
-                    <a href="https://www.linkedin.com/in/lucas-vital-davoli-8171a2300/"
-                        target="_blank">https://www.linkedin.com/in/lucas-vital-davoli-8171a2300/</a>
-                </div>
-            </section>
-            <div class="voltar">
-                <a href="#topo">Voltar ao Topo</a>
-            </div>
-            <script src="./js/index.js"></script>
+  <section class="sobre" id="sobre" aria-label="Sobre mim">
+    <h2>Sobre Mim:</h2>
+    <p>Estudante de Análise e Desenvolvimento de Sistemas (ADS), com foco no desenvolvimento de soluções
+      digitais utilizando HTML, CSS e JavaScript. Dedico-me continuamente à aprofundar meus conhecimentos
+      e dominar novas tecnologias, visando criar projetos inovadores, eficientes</p>
+    <br>
+    <h2>Habilidades:</h2>
+    <h3>Habilidades Técnicas</h3>
+    <ul>
+      <li>HTML5</li>
+      <li>CSS3</li>
+      <li>JavaScript</li>
+      <li>Design Responsivo</li>
+      <li>Conhecimentos básicos em PHP e Python</li>
+      <li>Git e GitHub</li>
+    </ul>
+
+    <h3>Habilidades Comportamentais</h3>
+    <ul>
+      <li>Boa comunicação</li>
+      <li>Trabalho em equipe</li>
+      <li>Aprendizado contínuo</li>
+      <li>Resiliência diante de desafios</li>
+    </ul>
+  </section>
+
+  <section class="projetos" id="projetos" aria-label="Projetos">
+    <h2>Meus Projetos:</h2>
+    <div class="cards-projetos">
+      <article class="calc">
+        <h3>FórmulaX</h3>
+        <p>Calculadora funcional desenvolvida com HTML, CSS e JavaScript, capaz de realizar operações
+          aritméticas básicas. Projeto focado em lógica de programação</p>
+        <a href="https://davoli0500.github.io/Calculadora-basica/" target="_blank" rel="noopener" aria-label="Ver projeto FórmulaX">Ver Projeto</a>
+      </article>
+      <article class="wars">
+        <h3>Projeto <em>Star Wars</em></h3>
+        <p>Recriação da icônica abertura do filme <em>Star Wars</em>, feita com HTML, CSS (com auxílio do
+          Bootstrap), JavaScript e jQuery. O projeto simula o efeito de rolagem em perspectiva da
+          introdução clássica da franquia.</p>
+        <a href="https://davoli0500.github.io/Projeto-Starwars/" target="_blank" rel="noopener" aria-label="Ver projeto Star Wars">Ver Projeto</a>
+      </article>
+    </div>
+  </section>
+
+  <section class="contato" id="contato" aria-label="Contato">
+    <h2>Contato:</h2>
+    <p>Estou aberto a oportunidades de estágio, feedbacks ou simplesmente trocar ideias sobre tecnologia.
+      Ficarei feliz em responder!</p>
+
+    <div class="contato-links">
+      <i class="fas fa-envelope icon" aria-hidden="true"></i>
+      <a href="mailto:vitaldavolilucas@gmail.com" aria-label="Enviar e-mail para Lucas">vitaldavolilucas@gmail.com</a>
+      <br>
+      <i class="fab fa-github icon" aria-hidden="true"></i>
+      <a href="https://github.com/DAvoli0500" target="_blank" rel="noopener" aria-label="GitHub de Lucas">https://github.com/DAvoli0500</a>
+      <br>
+      <i class="fab fa-linkedin icon" aria-hidden="true"></i>
+      <a href="https://www.linkedin.com/in/lucas-vital-davoli-8171a2300/" target="_blank" rel="noopener" aria-label="LinkedIn de Lucas">https://www.linkedin.com/in/lucas-vital-davoli-8171a2300/</a>
+    </div>
+  </section>
+
+  <div class="voltar">
+    <a href="#topo" aria-label="Voltar ao topo da página">Voltar ao Topo</a>
+  </div>
+
+  <script src="src/scripts/utils/stars.js"></script>
+  <script src="src/scripts/main.js"></script>
 </body>
 
 </html>

@@ -1,0 +1,17 @@
+.topo {
+  background-color: var(--bg-header);
+  height: 50px;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  padding-left: 20px;
+  border-radius: var(--radius-default);
+}
+
+.port {
+  font-size: 24px;
+  font-weight: 700;
+  background: var(--color-gradient-text);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

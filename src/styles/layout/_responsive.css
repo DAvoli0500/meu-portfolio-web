@@ -1,0 +1,53 @@
+@media (min-width: 100px) and (max-width: 319px) {
+  .caixa {
+    width: var(--caixa-width-mobile);
+    height: auto;
+    margin-top: 20px;
+  }
+  .menu ul {
+    gap: 5px;
+  }
+  .menu ul li {
+    height: auto;
+    padding: 10px 0;
+  }
+  .apre, .sobre, .projetos, .contato {
+    padding: var(--padding-section-mobile);
+  }
+}
+
+@media (min-width: 320px) and (max-width: 768px) {
+  .caixa {
+    width: var(--caixa-width-tablet);
+    height: auto;
+    margin-top: 20px;
+  }
+  .menu ul {
+    gap: 10px;
+  }
+  .menu ul li {
+    height: auto;
+    padding: 10px 0;
+  }
+  .apre, .sobre, .projetos, .contato {
+    padding: var(--padding-section-tablet);
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1200px) {
+  .caixa {
+    width: var(--caixa-width-desktop);
+    height: auto;
+    margin-top: 20px;
+  }
+  .menu ul {
+    gap: 15px;
+  }
+  .menu ul li {
+    height: auto;
+    padding: 10px 0;
+  }
+  .apre, .sobre, .projetos, .contato {
+    padding: 30px;
+  }
+}

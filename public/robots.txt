@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://davoli0500.github.io/meu-portfolio-web/sitemap.xml

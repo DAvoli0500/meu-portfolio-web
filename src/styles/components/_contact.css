@@ -1,0 +1,32 @@
+.contato {
+  padding: var(--padding-section);
+  color: var(--color-text);
+  background-color: var(--bg-contact);
+  border-radius: var(--radius-default);
+  margin-top: 40px;
+}
+
+.contato h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.contato p {
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.contato-links p {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.contato-links a {
+  color: var(--color-accent);
+  text-decoration: none;
+}
+
+.contato-links a:hover {
+  text-decoration: underline;
+}

@@ -1,0 +1,48 @@
+.cards-projetos {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: var(--gap-grid);
+}
+
+.cards-projetos .calc,
+.cards-projetos .wars {
+  background-color: var(--bg-card);
+  padding: 10px;
+  border-radius: var(--radius-default);
+  text-align: center;
+  width: 100%;
+}
+
+.cards-projetos .calc h3,
+.cards-projetos .wars h3 {
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+.cards-projetos .calc p,
+.cards-projetos .wars p {
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+
+.cards-projetos .calc a,
+.cards-projetos .wars a {
+  display: inline-block;
+  padding: 10px 15px;
+  background-color: var(--color-accent);
+  color: var(--color-text);
+  text-decoration: none;
+  border-radius: var(--radius-card);
+  transition: background-color 0.3s;
+}
+
+.cards-projetos .calc a:hover,
+.cards-projetos .wars a:hover {
+  background-color: var(--color-accent-hover);
+}
+
+.cards-projetos .calc a:focus-visible,
+.cards-projetos .wars a:focus-visible {
+  outline: 2px solid var(--color-text);
+  outline-offset: 2px;
+}

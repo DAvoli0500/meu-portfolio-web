@@ -1,0 +1,36 @@
+.menu {
+  margin-left: auto;
+  margin-right: 15px;
+}
+
+.menu ul {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  gap: var(--gap-nav);
+}
+
+.menu ul li {
+  display: flex;
+  align-items: center;
+  height: 50px;
+  padding: 0 15px;
+}
+
+.menu ul li a {
+  text-decoration: none;
+  color: var(--color-text);
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+.menu ul li a:hover {
+  color: var(--color-accent);
+}
+
+.menu ul li a:focus-visible {
+  outline: 2px solid var(--color-accent);
+  outline-offset: 4px;
+  border-radius: 2px;
+}

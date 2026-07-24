@@ -1,0 +1,22 @@
+.voltar {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.voltar a {
+  margin-top: 20px;
+  color: var(--color-glow);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.voltar a:hover {
+  text-decoration: underline;
+}
+
+.voltar a:focus-visible {
+  outline: 2px solid var(--color-accent);
+  outline-offset: 4px;
+  border-radius: 2px;
+}

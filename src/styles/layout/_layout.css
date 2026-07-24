@@ -1,0 +1,59 @@
+.caixa {
+  background: var(--bg-gradient);
+  width: var(--caixa-width);
+  height: auto;
+  margin-left: 50%;
+  transform: translate(-50%, 10%);
+  border-radius: var(--radius-default);
+}
+
+.apre {
+  padding: var(--padding-section);
+  text-align: center;
+  color: var(--color-text);
+}
+
+.apresentacao h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.apresentacao h1 span {
+  color: var(--color-accent);
+}
+
+.apresentacao h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.apresentacao p {
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+.sobre {
+  padding: var(--padding-section);
+  color: var(--color-text);
+}
+
+.sobre h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.sobre p {
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+.projetos {
+  padding: var(--padding-section);
+  margin-top: -40px;
+  color: var(--color-text);
+}
+
+.projetos h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
