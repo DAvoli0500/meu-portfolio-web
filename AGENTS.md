@@ -8,8 +8,8 @@
 ## Entrypoints
 
 - `index.html` — única página.
-- `src/styles/main.css` — entry point CSS (agrega módulos via `@import`).
-- `src/scripts/main.js` — entry point JS (carrega `stars.js` que define `criarEstrelas()`).
+- `css/main.css` — entry point CSS (agrega módulos via `@import`).
+- `js/main.js` — entry point JS (carrega `stars.js` que define `criarEstrelas()`).
 
 ## Dev Commands
 
@@ -21,11 +21,12 @@ npx live-server . --port=3000 --no-browser
 ## Structure
 
 ```
-index.html                 # Página principal
-src/styles/                # CSS modular (base/, components/, layout/)
-src/scripts/               # JS modular (utils/stars.js)
-public/                    # Manifest, robots.txt, assets
-.github/workflows/         # Deploy automático no push para main
+index.html            # Página principal
+css/                  # CSS modular (main.css + _*.css parcials)
+js/                   # JS modular (main.js, stars.js)
+public/               # Manifest, robots.txt, assets
+imgs/                 # Imagens (PNG apenas)
+.github/workflows/    # Deploy automático no push para main
 ```
 
 ## Conventions

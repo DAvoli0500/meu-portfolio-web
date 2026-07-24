@@ -14,22 +14,26 @@ Portfólio pessoal de **Lucas Vital Davoli** — Desenvolvedor Front-End.
 
 ```
 ├── index.html              # Página principal
-├── src/
-│   ├── styles/             # CSS modular
-│   │   ├── base/           # Variáveis, reset, tipografia
-│   │   ├── components/     # Header, nav, cards, contato
-│   │   ├── layout/         # Layout geral e responsivo
-│   │   └── main.css        # Entry point (agrega módulos)
-│   └── scripts/
-│       ├── utils/stars.js  # Efeito de estrelas animadas
-│       └── main.js         # Entry point JS
+├── css/                    # CSS modular
+│   ├── main.css            # Entry point (importa módulos)
+│   ├── _variables.css      # Custom properties
+│   ├── _reset.css          # Reset
+│   ├── _typography.css     # Tipografia
+│   ├── _star.css           # Efeito estrelas
+│   ├── _header.css         # Header
+│   ├── _nav.css            # Navegação
+│   ├── _card.css           # Cards de projetos
+│   ├── _contact.css        # Contato
+│   ├── _backtotop.css      # Voltar ao topo
+│   ├── _layout.css         # Layout geral
+│   └── _responsive.css     # Media queries
+├── js/
+│   ├── main.js             # Entry point JS
+│   └── stars.js            # Animação de estrelas
+├── imgs/                   # Imagens
 ├── public/
-│   ├── assets/             # Imagens, ícones, fontes
 │   ├── manifest.json       # PWA manifest
 │   └── robots.txt          # SEO
-├── css/                    # CSS legado (monolítico)
-├── js/                     # JS legado
-├── imgs/                   # Imagens legado
 └── .github/workflows/      # CI/CD para GitHub Pages
 ```
 
